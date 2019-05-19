@@ -1,6 +1,6 @@
 # MiscThings
 
-**kissproc.ps1**
+**kisspost.ps1**
 
 Allows for some basic gcode prostproccesing of KISSlicer generated gcode.
 * automatically copy generated/modfied gcode to specified outDir, all gcode files in one place
@@ -11,10 +11,10 @@ Allows for some basic gcode prostproccesing of KISSlicer generated gcode.
 Set Post-Process in KISSlicer Profiles -> Printer -> Firmware
 `powershell c:\apps\3dprint\kisspost.ps1 -inFile '<FILE>' -outDir 'C:\apps\gcode' -crownExtrusionModifier 1`
   
-**kissproc.py**
+**kisspost.py**
 
-Little brother to kissproc.ps1.
+Little brother to kisspost.ps1.
 Does not include the crownExtrusionModifier and rewritePrimeToPreload. Prime speed is extracted from the same MATL token or provided via --speed paramter
 
 Set Post-Process in KISSlicer Profiles -> Printer -> Firmware
-`python c:\apps\3dprint\kissproc.py --inFile "<FILE>" --outDir "c:\apps\gcode"`
+`python c:\apps\3dprint\kisspost.py --inFile "<FILE>" --outDir "c:\apps\gcode"`
