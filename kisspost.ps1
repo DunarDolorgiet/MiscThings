@@ -134,7 +134,7 @@ $primeMatchEval = {
 }
 
 
-$fileContent = Get-Content $inFile.FullName -Raw;
+$fileContent = Get-Content $inFile -Raw;
 
 $primeSpeed = 0;
 $defaultPathAccl = 0;
