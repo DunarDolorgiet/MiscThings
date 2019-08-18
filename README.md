@@ -25,3 +25,12 @@ Does not include the crownExtrusionModifier and rewriteLoopAccels. Prime speed i
 
 Set Post-Process in KISSlicer Profiles -> Printer -> Firmware
 `python c:\apps\3dprint\kisspost.py --inFile "<FILE>" --outDir "c:\apps\gcode"`
+
+
+**kiss_profile.zip**
+
+My KISSlicer 2 profile
+
+**Voron 2.1.fff**
+
+My Simplify3D profile
