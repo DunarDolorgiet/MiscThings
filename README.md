@@ -17,6 +17,7 @@ Allows for some basic gcode prostproccesing of KISSlicer generated gcode.
 
 Set Post-Process in KISSlicer Profiles -> Printer -> Firmware
 `powershell c:\apps\3dprint\kisspost.ps1 -inFile '<FILE>' -outDir c:\apps\gcode -crownExtrusionModifier 1.005 -rewriteLoopAccels`
+
 `powershell c:\apps\3dprint\kisspostrff.ps1 -inFile '<FILE>' -outDir c:\apps\gcode -crownExtrusionModifier 1.005 -rewriteLoopAccels`
   
 **kisspost.py**
